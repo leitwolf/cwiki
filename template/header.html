@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="description" content="{title}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{rootpath}favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="{rootpath}res/css/style.css" />
+    <!-- highlight start -->
+    <link rel="stylesheet" type="text/css" href="{rootpath}res/prismjs/prism.css" />
+    <script type="text/javascript" src="{rootpath}res/prismjs/prism.js"></script>
+    <!-- highlight end -->
+    <title>{page-title}</title>
+</head>
+
+<body>
+    <div class="container">
+        <header id="header" class="header">
+            <div class="logo-wrapper">
+                <a href="{rootpath}" class="logo">{author}</a>
+            </div>
+            <nav class="site-nav">
+                <ul id="menu" class="menu">
+                    <li class="menu-item">
+                        <a class="menu-item-link" href="{rootpath}index.html">首页</a>
+                    </li>
+                    {menu}
+                </ul>
+            </nav>
+            <div class="mobile-navbar">
+                <div class="mobile-header">
+                    <div class="mobile-header-logo">
+                        <a href="{rootpath}" class="logo">{author}</a>
+                    </div>
+                    <div class="mobile-header-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <nav class="mobile-menu">
+                    <a class="mobile-menu-item" href="{rootpath}index.html">首页</a>
+                    {mobile-menu}
+                </nav>
+            </div>
+        </header>
